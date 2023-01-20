@@ -33,7 +33,7 @@ development:
     username: <%= ENV['CLIENT1_USERNAME'] %>
     password: <%= ENV['CLIENT1_PASSWORD'] %>
     migrations_paths:
-      - "db/rc_client3_migrate"
+      - "db/rc_client1_migrate"
   rc_client2:
     <<: *default
     database: rc_client2
